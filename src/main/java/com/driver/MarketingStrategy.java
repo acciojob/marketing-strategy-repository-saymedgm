@@ -18,34 +18,28 @@ public class MarketingStrategy {
     // Getters and Setters
 
     public String getName() {
-    	//your code goes here
         return name;
     }
 
     public String getDescription() {
-    	//your code goes here
         return description;
     }
 
     public String getTargetAudience() {
-    	//your code goes here
         return targetAudience;
     }
 
     public double getBudget() {
-    	//your code goes here
         return budget;
     }
 
     public double getPotentialROI() {
-    	//your code goes here
         return potentialROI;
     }
-    
+
 
     @Override
     public String toString() {
-    	//your code goes here
         return "MarketingStrategy{" +
                 "name='" + name + '\'' +
                 ", description='" + description + '\'' +
@@ -55,4 +49,3 @@ public class MarketingStrategy {
                 '}';
     }
 }
-
